@@ -34,6 +34,13 @@ h6 {
   color: #0a2b1e;
   font-weight: 600;
 }
+section a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+section a:hover {
+  opacity: 0.6;
+}
 p {
   color: #596b65;
   font-size: 1.1rem;
@@ -52,6 +59,7 @@ button.btn {
 
 i {
   color: #17bf9e;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 991px) {
