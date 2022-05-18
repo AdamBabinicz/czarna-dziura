@@ -6,6 +6,9 @@
   width: 100%;
   object-fit: cover;
 }
+.testimonial__content {
+  width: 50%;
+}
 .testimonial__content h2 {
   font-weight: 600;
   font-family: "Rubik Moonrocks", cursive;

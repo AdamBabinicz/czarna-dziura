@@ -24,7 +24,7 @@ const Testimonials = () => {
                 <img src={img} alt="..." className="w-100" />
               </div>
 
-              <div className="testimonial__content w-50">
+              <div className="testimonial__content">
                 <h2 className="mb-4">Sagittarius A*</h2>
 
                 <Slider {...settings}>
