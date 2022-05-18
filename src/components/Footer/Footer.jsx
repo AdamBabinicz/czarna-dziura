@@ -65,7 +65,7 @@ const Footer = () => {
               <p className="mb-0">Media</p>
               <span>
                 <a
-                  href="https://facebook.com/"
+                  href="//www.facebook.com/watch/?ref=search&v=419829542909727&external_log_id=2f37c8e8-2194-4a72-8483-418e1fa502a0&q=czarna%20dziura"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -74,7 +74,7 @@ const Footer = () => {
               </span>
               <span>
                 <a
-                  href="https://pinterest.com/"
+                  href="//pl.pinterest.com/levy0528/czarne-dziury"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -83,7 +83,7 @@ const Footer = () => {
               </span>
               <span>
                 <a
-                  href="https://google.com/"
+                  href="//brainboss.pl/kosmos/czarna-dziura-czym-jest-i-jak-powstaje"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -92,7 +92,7 @@ const Footer = () => {
               </span>
               <span>
                 <a
-                  href="https://twitter.com/"
+                  href="//twitter.com/cnkopernik/status/1115969180522680320"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -101,7 +101,7 @@ const Footer = () => {
               </span>
               <span>
                 <a
-                  href="https://youtube.com/"
+                  href="//www.youtube.com/watch?v=SgK0A0ijXvs"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -110,7 +110,7 @@ const Footer = () => {
               </span>
               <span>
                 <a
-                  href="https://instagram.com/"
+                  href="//www.instagram.com/explore/tags/czarnadziura"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
