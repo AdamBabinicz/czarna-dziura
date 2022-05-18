@@ -66,7 +66,7 @@ const Courses = () => {
         <Row>
           <Col lg="12" className="mb-5">
             <div className="course__top d-flex justify-content-between align-items-center">
-              <div className="course__top__left w-50">
+              <div className="course__top__left">
                 <h2>Rodzaje czarnych dziur</h2>
                 <p>
                   Czarne dziury są interesujące z punktu widzenia fizyków,

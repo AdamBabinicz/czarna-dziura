@@ -32,6 +32,9 @@
 .course__top h3 {
   font-size: 1.3rem;
 }
+.course__top__left {
+  width: 50%;
+}
 .course__top__left h2 {
   font-family: "Rubik Moonrocks", cursive;
 }
@@ -53,7 +56,7 @@
     margin: auto;
   }
   .course__top__left {
-    width: 100% !important;
+    width: 100%;
   }
   .course__top__left h2 {
     text-align: center;

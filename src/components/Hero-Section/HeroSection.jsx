@@ -10,9 +10,9 @@ const HeroSection = () => {
         <Row>
           <Col lg="6">
             <div className="hero__content">
-              <h2 className="mb-4">
+              <h1 className="mb-4">
                 CZARNE DZIURY - portalami <br /> do światów równoległych?
-              </h2>
+              </h1>
               <p className="mb-4">
                 Współczesna astrofizyka nikomu nie zawdzięcza równie wiele co
                 Stephenowi Hawkingowi. Genialny naukowiec i kosmolog podczas
