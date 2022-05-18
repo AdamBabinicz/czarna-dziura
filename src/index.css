@@ -1,13 +1,84 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Barrio&family=Big+Shoulders+Inline+Text:wght@100;900&family=Bungee+Inline&family=Grenze+Gotisch:wght@100;900&family=Major+Mono+Display&family=Moo+Lah+Lah&family=Ranchers&family=Righteous&family=Roboto:wght@100;400&family=Rubik+Glitch&family=Rubik+Microbe&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Saira+Stencil+One&family=Syne+Mono&family=Titan+One&family=Tourney:wght@800;900&family=Train+One&family=VT323&display=swap");
+
+/* =========== base style ========= */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+section,
+footer {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2rem;
+  line-height: 50px;
+  color: #0a2b1e;
+  font-weight: 600;
+}
+p {
+  color: #596b65;
+  font-size: 1.1rem;
+  line-height: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+button.btn {
+  background: #17bf9e;
+  color: #fff;
+  padding: 7px 25px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+i {
+  color: #17bf9e;
+}
+
+@media only screen and (max-width: 991px) {
+  section,
+  footer {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+/* font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Barrio', cursive;
+font-family: 'Big Shoulders Inline Text', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Grenze Gotisch', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Moo Lah Lah', cursive;
+font-family: 'Ranchers', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Saira Stencil One', cursive;
+font-family: 'Syne Mono', monospace;
+font-family: 'Titan One', cursive;
+font-family: 'Tourney', cursive;
+font-family: 'Train One', cursive;
+font-family: 'VT323', monospace; */

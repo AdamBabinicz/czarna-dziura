@@ -1,0 +1,46 @@
+.text-centerX h2 {
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 2rem;
+  line-height: 50px;
+  text-align: center;
+  color: #0a2b1e;
+}
+.free__course__img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* z-index: 9999; */
+}
+.free__btn {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  /* z-index: 999999; */
+  padding: 5px 15px;
+  font-size: 0.9rem;
+}
+.free__course__img img {
+  border-radius: 10px;
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+.free__course__details h6 {
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .text-centerX {
+    display: flex;
+    justify-content: center;
+  }
+  .text-centerX h2 {
+    margin: 1rem 0;
+  }
+  .free__course__img img {
+    margin-top: 2rem;
+  }
+}

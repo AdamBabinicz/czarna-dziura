@@ -1,0 +1,11 @@
+.company-section {
+}
+
+@media only screen and (max-width: 991px) {
+  .company-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 1rem 0;
+  }
+}
