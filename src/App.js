@@ -1,10 +1,12 @@
 import Home from "./pages/Home";
 import "bootstrap/dist/css/bootstrap.css";
 import CookieConsent from "react-cookie-consent";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Home />
       <CookieConsent
         debug={true}
